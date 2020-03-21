@@ -11,8 +11,9 @@ public class Main {
 //      System.out.println("Error");
 //    }
 
-    if (!InsertInterval.test()) {
-      System.out.println("Error");
-    }
+//    if (!InsertInterval.test()) {
+//      System.out.println("Error");
+//    }
+    SimplifyPath.run();
   }
 }
