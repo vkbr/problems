@@ -14,6 +14,6 @@ public class Main {
 //    if (!InsertInterval.test()) {
 //      System.out.println("Error");
 //    }
-    SimplifyPath.run();
+    BinTreeUpsideDown.run();
   }
 }

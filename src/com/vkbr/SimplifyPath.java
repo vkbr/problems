@@ -1,18 +1,18 @@
 package com.vkbr;
 
+import com.vkbr.util.Test;
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class SimplifyPath {
   private String source = "https://leetcode.com/problems/simplify-path/";
   public static void run() {
     SimplifyPath sp = new SimplifyPath();
 
-    Util.assertAndPrint(sp.solve("/home/"), "/home");
-    Util.assertAndPrint(sp.solve("/a/./b/../../c/"), "/c");
-    Util.assertAndPrint(sp.solve("/a/../../b/../c//.//"), "/c");
-    Util.assertAndPrint(sp.solve("/a//b////c/d//././/.."), "/a/b/c");
+    Test.assertAndPrint(sp.solve("/home/"), "/home");
+    Test.assertAndPrint(sp.solve("/a/./b/../../c/"), "/c");
+    Test.assertAndPrint(sp.solve("/a/../../b/../c//.//"), "/c");
+    Test.assertAndPrint(sp.solve("/a//b////c/d//././/.."), "/a/b/c");
   }
   public String solve(String path) {
     String[] dirs = path.split("/");
