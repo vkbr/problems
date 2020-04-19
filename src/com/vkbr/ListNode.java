@@ -1,11 +1,11 @@
 package com.vkbr;
 
 public class ListNode {
-  int val;
-  ListNode next;
+  public int val;
+  public ListNode next;
   private ListNode l;
 
-  ListNode(int val) {
+  public ListNode(int val) {
     this.val = val;
     this.next = null;
     this.l = this;

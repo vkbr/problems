@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Node {
   public Node left, right;
-  final int val;
+  public final int val;
 
   public Node(int val) {
     this.val = val;
